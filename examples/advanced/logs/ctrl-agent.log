@@ -1,0 +1,77 @@
+2024-08-07 16:34:04.306 INFO  [kea-ctrl-agent.ctrl-agent/1.132525616248704] CTRL_AGENT_HTTP_SERVICE_STARTED HTTP service bound to address 0.0.0.0:8000
+2024-08-07 16:34:04.306 INFO  [kea-ctrl-agent.dctl/1.132525616248704] DCTL_CONFIG_COMPLETE server has completed configuration: listening on 0.0.0.0, port 8000, control sockets: dhcp4 dhcp6, 0 lib(s):
+2024-08-07 16:34:04.306 INFO  [kea-ctrl-agent.ctrl-agent/1.132525616248704] CTRL_AGENT_STARTED Kea Control Agent version 2.6.1 started
+2024-08-07 16:37:54.618 INFO  [kea-ctrl-agent.dctl/1.132525616248704] DCTL_SHUTDOWN Control-agent has shut down, pid: 1, version: 2.6.1
+2024-08-07 16:38:33.145 INFO  [kea-ctrl-agent.ctrl-agent/1.139773524965168] CTRL_AGENT_HTTP_SERVICE_STARTED HTTP service bound to address 0.0.0.0:8000
+2024-08-07 16:38:33.145 INFO  [kea-ctrl-agent.dctl/1.139773524965168] DCTL_CONFIG_COMPLETE server has completed configuration: listening on 0.0.0.0, port 8000, control sockets: dhcp4 dhcp6, 0 lib(s):
+2024-08-07 16:38:33.145 INFO  [kea-ctrl-agent.ctrl-agent/1.139773524965168] CTRL_AGENT_STARTED Kea Control Agent version 2.7.1 started
+2024-08-07 16:55:15.816 INFO  [kea-ctrl-agent.commands/1.139773524965168] COMMAND_RECEIVED Received command 'build-report'
+2024-08-07 16:55:15.816 INFO  [kea-ctrl-agent.ctrl-agent/1.139773524965168] CTRL_AGENT_COMMAND_RECEIVED command build-report received from remote address 172.18.0.1
+2024-08-07 17:00:19.923 INFO  [kea-ctrl-agent.commands/1.139773524965168] COMMAND_RECEIVED Received command 'lease4-get-all'
+2024-08-07 17:00:19.923 INFO  [kea-ctrl-agent.ctrl-agent/1.139773524965168] CTRL_AGENT_COMMAND_RECEIVED command lease4-get-all received from remote address 172.18.0.1
+2024-08-07 17:00:19.923 INFO  [kea-ctrl-agent.ctrl-agent/1.139773524965168] CTRL_AGENT_COMMAND_FORWARDED command lease4-get-all successfully forwarded to the service dhcp4 from remote address 172.18.0.1
+2024-08-07 17:00:26.249 INFO  [kea-ctrl-agent.commands/1.139773524965168] COMMAND_RECEIVED Received command 'lease4-get-all'
+2024-08-07 17:00:26.249 INFO  [kea-ctrl-agent.ctrl-agent/1.139773524965168] CTRL_AGENT_COMMAND_RECEIVED command lease4-get-all received from remote address 172.18.0.1
+2024-08-07 17:00:35.149 INFO  [kea-ctrl-agent.commands/1.139773524965168] COMMAND_RECEIVED Received command 'lease4-get-all'
+2024-08-07 17:00:35.149 INFO  [kea-ctrl-agent.ctrl-agent/1.139773524965168] CTRL_AGENT_COMMAND_RECEIVED command lease4-get-all received from remote address 172.18.0.1
+2024-08-07 17:00:35.149 INFO  [kea-ctrl-agent.ctrl-agent/1.139773524965168] CTRL_AGENT_COMMAND_FORWARDED command lease4-get-all successfully forwarded to the service dhcp4 from remote address 172.18.0.1
+2024-08-07 17:03:37.834 INFO  [kea-ctrl-agent.commands/1.139773524965168] COMMAND_RECEIVED Received command 'config-get'
+2024-08-07 17:03:37.834 INFO  [kea-ctrl-agent.ctrl-agent/1.139773524965168] CTRL_AGENT_COMMAND_RECEIVED command config-get received from remote address 172.18.0.1
+2024-08-07 17:03:37.835 INFO  [kea-ctrl-agent.ctrl-agent/1.139773524965168] CTRL_AGENT_COMMAND_FORWARDED command config-get successfully forwarded to the service dhcp4 from remote address 172.18.0.1
+2024-08-07 17:05:57.715 INFO  [kea-ctrl-agent.commands/1.139773524965168] COMMAND_RECEIVED Received command 'subnet4-list'
+2024-08-07 17:05:57.715 INFO  [kea-ctrl-agent.ctrl-agent/1.139773524965168] CTRL_AGENT_COMMAND_RECEIVED command subnet4-list received from remote address 172.18.0.1
+2024-08-07 17:05:57.715 INFO  [kea-ctrl-agent.ctrl-agent/1.139773524965168] CTRL_AGENT_COMMAND_FORWARDED command subnet4-list successfully forwarded to the service dhcp4 from remote address 172.18.0.1
+2024-08-07 17:06:21.276 INFO  [kea-ctrl-agent.commands/1.139773524965168] COMMAND_RECEIVED Received command 'subnet4-add'
+2024-08-07 17:06:21.276 INFO  [kea-ctrl-agent.ctrl-agent/1.139773524965168] CTRL_AGENT_COMMAND_RECEIVED command subnet4-add received from remote address 172.18.0.1
+2024-08-07 17:06:21.277 INFO  [kea-ctrl-agent.ctrl-agent/1.139773524965168] CTRL_AGENT_COMMAND_FORWARDED command subnet4-add successfully forwarded to the service dhcp4 from remote address 172.18.0.1
+2024-08-07 17:06:37.994 INFO  [kea-ctrl-agent.commands/1.139773524965168] COMMAND_RECEIVED Received command 'dhcp4-enable'
+2024-08-07 17:06:37.994 INFO  [kea-ctrl-agent.ctrl-agent/1.139773524965168] CTRL_AGENT_COMMAND_RECEIVED command dhcp4-enable received from remote address 172.18.0.1
+2024-08-07 17:06:37.994 INFO  [kea-ctrl-agent.ctrl-agent/1.139773524965168] CTRL_AGENT_COMMAND_FORWARDED command dhcp4-enable successfully forwarded to the service dhcp4 from remote address 172.18.0.1
+2024-08-07 17:06:50.368 INFO  [kea-ctrl-agent.commands/1.139773524965168] COMMAND_RECEIVED Received command 'dhcp-enable'
+2024-08-07 17:06:50.368 INFO  [kea-ctrl-agent.ctrl-agent/1.139773524965168] CTRL_AGENT_COMMAND_RECEIVED command dhcp-enable received from remote address 172.18.0.1
+2024-08-07 17:06:50.369 INFO  [kea-ctrl-agent.ctrl-agent/1.139773524965168] CTRL_AGENT_COMMAND_FORWARDED command dhcp-enable successfully forwarded to the service dhcp4 from remote address 172.18.0.1
+2024-08-07 17:06:54.537 INFO  [kea-ctrl-agent.commands/1.139773524965168] COMMAND_RECEIVED Received command 'subnet4-add'
+2024-08-07 17:06:54.537 INFO  [kea-ctrl-agent.ctrl-agent/1.139773524965168] CTRL_AGENT_COMMAND_RECEIVED command subnet4-add received from remote address 172.18.0.1
+2024-08-07 17:06:54.538 INFO  [kea-ctrl-agent.ctrl-agent/1.139773524965168] CTRL_AGENT_COMMAND_FORWARDED command subnet4-add successfully forwarded to the service dhcp4 from remote address 172.18.0.1
+2024-08-07 17:10:06.050 INFO  [kea-ctrl-agent.dctl/1.139773524965168] DCTL_SHUTDOWN Control-agent has shut down, pid: 1, version: 2.7.1
+2024-08-07 17:10:11.764 INFO  [kea-ctrl-agent.ctrl-agent/1.126109075326768] CTRL_AGENT_HTTP_SERVICE_STARTED HTTP service bound to address 0.0.0.0:8000
+2024-08-07 17:10:11.764 INFO  [kea-ctrl-agent.dctl/1.126109075326768] DCTL_CONFIG_COMPLETE server has completed configuration: listening on 0.0.0.0, port 8000, control sockets: dhcp4 dhcp6, 0 lib(s):
+2024-08-07 17:10:11.765 INFO  [kea-ctrl-agent.ctrl-agent/1.126109075326768] CTRL_AGENT_STARTED Kea Control Agent version 2.7.1 started
+2024-08-07 17:16:29.116 INFO  [kea-ctrl-agent.commands/1.126109075326768] COMMAND_RECEIVED Received command 'subnet4-list'
+2024-08-07 17:16:29.116 INFO  [kea-ctrl-agent.ctrl-agent/1.126109075326768] CTRL_AGENT_COMMAND_RECEIVED command subnet4-list received from remote address 172.18.0.1
+2024-08-07 17:16:29.117 INFO  [kea-ctrl-agent.ctrl-agent/1.126109075326768] CTRL_AGENT_COMMAND_FORWARDED command subnet4-list successfully forwarded to the service dhcp4 from remote address 172.18.0.1
+2024-08-07 17:17:03.099 INFO  [kea-ctrl-agent.commands/1.126109075326768] COMMAND_RECEIVED Received command 'lease4-get-all'
+2024-08-07 17:17:03.099 INFO  [kea-ctrl-agent.ctrl-agent/1.126109075326768] CTRL_AGENT_COMMAND_RECEIVED command lease4-get-all received from remote address 172.18.0.1
+2024-08-07 17:17:03.099 INFO  [kea-ctrl-agent.ctrl-agent/1.126109075326768] CTRL_AGENT_COMMAND_FORWARDED command lease4-get-all successfully forwarded to the service dhcp4 from remote address 172.18.0.1
+2024-08-07 17:17:21.590 INFO  [kea-ctrl-agent.commands/1.126109075326768] COMMAND_RECEIVED Received command 'config-get'
+2024-08-07 17:17:21.590 INFO  [kea-ctrl-agent.ctrl-agent/1.126109075326768] CTRL_AGENT_COMMAND_RECEIVED command config-get received from remote address 172.18.0.1
+2024-08-07 17:17:21.591 INFO  [kea-ctrl-agent.ctrl-agent/1.126109075326768] CTRL_AGENT_COMMAND_FORWARDED command config-get successfully forwarded to the service dhcp4 from remote address 172.18.0.1
+2024-08-07 17:17:34.755 INFO  [kea-ctrl-agent.dctl/1.126109075326768] DCTL_SHUTDOWN Control-agent has shut down, pid: 1, version: 2.7.1
+2024-08-07 17:20:14.076 INFO  [kea-ctrl-agent.ctrl-agent/1.128214289000240] CTRL_AGENT_HTTP_SERVICE_STARTED HTTP service bound to address 0.0.0.0:8000
+2024-08-07 17:20:14.076 INFO  [kea-ctrl-agent.dctl/1.128214289000240] DCTL_CONFIG_COMPLETE server has completed configuration: listening on 0.0.0.0, port 8000, control sockets: dhcp4 dhcp6, 0 lib(s):
+2024-08-07 17:20:14.076 INFO  [kea-ctrl-agent.ctrl-agent/1.128214289000240] CTRL_AGENT_STARTED Kea Control Agent version 2.7.1 started
+2024-08-07 17:20:16.119 INFO  [kea-ctrl-agent.commands/1.128214289000240] COMMAND_RECEIVED Received command 'reservation-get-all'
+2024-08-07 17:20:16.119 INFO  [kea-ctrl-agent.ctrl-agent/1.128214289000240] CTRL_AGENT_COMMAND_RECEIVED command reservation-get-all received from remote address 172.18.0.1
+2024-08-07 17:20:16.119 INFO  [kea-ctrl-agent.ctrl-agent/1.128214289000240] CTRL_AGENT_COMMAND_FORWARDED command reservation-get-all successfully forwarded to the service dhcp4 from remote address 172.18.0.1
+2024-08-07 17:21:41.483 INFO  [kea-ctrl-agent.commands/1.128214289000240] COMMAND_RECEIVED Received command 'config-get'
+2024-08-07 17:21:41.483 INFO  [kea-ctrl-agent.ctrl-agent/1.128214289000240] CTRL_AGENT_COMMAND_RECEIVED command config-get received from remote address 172.18.0.1
+2024-08-07 17:21:41.484 INFO  [kea-ctrl-agent.ctrl-agent/1.128214289000240] CTRL_AGENT_COMMAND_FORWARDED command config-get successfully forwarded to the service dhcp4 from remote address 172.18.0.1
+2024-08-07 17:21:50.869 INFO  [kea-ctrl-agent.commands/1.128214289000240] COMMAND_RECEIVED Received command 'reservation-get-all'
+2024-08-07 17:21:50.869 INFO  [kea-ctrl-agent.ctrl-agent/1.128214289000240] CTRL_AGENT_COMMAND_RECEIVED command reservation-get-all received from remote address 172.18.0.1
+2024-08-07 17:21:50.869 INFO  [kea-ctrl-agent.ctrl-agent/1.128214289000240] CTRL_AGENT_COMMAND_FORWARDED command reservation-get-all successfully forwarded to the service dhcp4 from remote address 172.18.0.1
+2024-08-07 17:21:53.483 INFO  [kea-ctrl-agent.dctl/1.128214289000240] DCTL_SHUTDOWN Control-agent has shut down, pid: 1, version: 2.7.1
+2024-08-07 18:04:09.131 INFO  [kea-ctrl-agent.ctrl-agent/1.136039731316528] CTRL_AGENT_HTTP_SERVICE_STARTED HTTP service bound to address 0.0.0.0:8000
+2024-08-07 18:04:09.131 INFO  [kea-ctrl-agent.dctl/1.136039731316528] DCTL_CONFIG_COMPLETE server has completed configuration: listening on 0.0.0.0, port 8000, control sockets: dhcp4 dhcp6, 0 lib(s):
+2024-08-07 18:04:09.131 INFO  [kea-ctrl-agent.ctrl-agent/1.136039731316528] CTRL_AGENT_STARTED Kea Control Agent version 2.7.1 started
+2024-08-07 18:04:16.432 INFO  [kea-ctrl-agent.dctl/1.136039731316528] DCTL_SHUTDOWN Control-agent has shut down, pid: 1, version: 2.7.1
+2024-08-07 18:05:25.044 INFO  [kea-ctrl-agent.ctrl-agent/1.128274949326640] CTRL_AGENT_HTTP_SERVICE_STARTED HTTP service bound to address 0.0.0.0:8000
+2024-08-07 18:05:25.044 INFO  [kea-ctrl-agent.dctl/1.128274949326640] DCTL_CONFIG_COMPLETE server has completed configuration: listening on 0.0.0.0, port 8000, control sockets: dhcp4 dhcp6, 0 lib(s):
+2024-08-07 18:05:25.044 INFO  [kea-ctrl-agent.ctrl-agent/1.128274949326640] CTRL_AGENT_STARTED Kea Control Agent version 2.7.1 started
+2024-08-07 18:05:27.003 INFO  [kea-ctrl-agent.dctl/1.128274949326640] DCTL_SHUTDOWN Control-agent has shut down, pid: 1, version: 2.7.1
+2024-08-07 18:06:45.298 INFO  [kea-ctrl-agent.ctrl-agent/1.130949541812016] CTRL_AGENT_HTTP_SERVICE_STARTED HTTP service bound to address 0.0.0.0:8000
+2024-08-07 18:06:45.298 INFO  [kea-ctrl-agent.dctl/1.130949541812016] DCTL_CONFIG_COMPLETE server has completed configuration: listening on 0.0.0.0, port 8000, control sockets: dhcp4 dhcp6, 0 lib(s):
+2024-08-07 18:06:45.298 INFO  [kea-ctrl-agent.ctrl-agent/1.130949541812016] CTRL_AGENT_STARTED Kea Control Agent version 2.7.1 started
+2024-08-07 18:06:47.912 INFO  [kea-ctrl-agent.dctl/1.130949541812016] DCTL_SHUTDOWN Control-agent has shut down, pid: 1, version: 2.7.1
+2024-08-07 18:08:11.592 INFO  [kea-ctrl-agent.ctrl-agent/1.130050494793520] CTRL_AGENT_HTTP_SERVICE_STARTED HTTP service bound to address 0.0.0.0:8000
+2024-08-07 18:08:11.592 INFO  [kea-ctrl-agent.dctl/1.130050494793520] DCTL_CONFIG_COMPLETE server has completed configuration: listening on 0.0.0.0, port 8000, control sockets: dhcp4 dhcp6, 0 lib(s):
+2024-08-07 18:08:11.592 INFO  [kea-ctrl-agent.ctrl-agent/1.130050494793520] CTRL_AGENT_STARTED Kea Control Agent version 2.7.1 started

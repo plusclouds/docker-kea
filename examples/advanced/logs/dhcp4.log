@@ -1,0 +1,131 @@
+2024-08-07 16:34:04.280 INFO  [kea-dhcp4.hosts/1.137457490673536] HOSTS_BACKENDS_REGISTERED the following host backend types are available: mysql postgresql 
+2024-08-07 16:34:04.280 WARN  [kea-dhcp4.dhcpsrv/1.137457490673536] DHCPSRV_MT_DISABLED_QUEUE_CONTROL disabling dhcp queue control when multi-threading is enabled.
+2024-08-07 16:34:04.280 WARN  [kea-dhcp4.dhcp4/1.137457490673536] DHCP4_RESERVATIONS_LOOKUP_FIRST_ENABLED Multi-threading is enabled and host reservations lookup is always performed first.
+2024-08-07 16:34:04.280 INFO  [kea-dhcp4.dhcpsrv/1.137457490673536] DHCPSRV_CFGMGR_NEW_SUBNET4 a new subnet has been added to configuration: 172.17.0.0/16 with params: t1=900, t2=1800, valid-lifetime=6000
+2024-08-07 16:34:04.280 INFO  [kea-dhcp4.dhcpsrv/1.137457490673536] DHCPSRV_CFGMGR_SOCKET_TYPE_SELECT using socket type raw
+2024-08-07 16:34:04.280 INFO  [kea-dhcp4.dhcpsrv/1.137457490673536] DHCPSRV_CFGMGR_SOCKET_TYPE_SELECT using socket type raw
+2024-08-07 16:34:04.280 INFO  [kea-dhcp4.commands/1.137457490673536] COMMAND_ACCEPTOR_START Starting to accept connections via unix domain socket bound to /kea/sockets/dhcp4.socket
+2024-08-07 16:34:04.280 INFO  [kea-dhcp4.dhcp4/1.137457490673536] DHCP4_CONFIG_COMPLETE DHCPv4 server has completed configuration: added IPv4 subnets: 1; DDNS: disabled
+2024-08-07 16:34:04.281 INFO  [kea-dhcp4.dhcpsrv/1.137457490673536] DHCPSRV_MEMFILE_DB opening memory file lease database: lfc-interval=3600 name=/kea/leases/dhcp4.csv type=memfile universe=4
+2024-08-07 16:34:04.282 INFO  [kea-dhcp4.dhcpsrv/1.137457490673536] DHCPSRV_MEMFILE_LEASE_FILE_LOAD loading leases from file /kea/leases/dhcp4.csv
+2024-08-07 16:34:04.282 INFO  [kea-dhcp4.dhcpsrv/1.137457490673536] DHCPSRV_MEMFILE_EXTRACT_EXTENDED_INFO4 extracting extended info saw 0 leases, extended info sanity checks modified 0 / updated 0 leases and 0 leases have relay or remote id
+2024-08-07 16:34:04.282 INFO  [kea-dhcp4.dhcpsrv/1.137457490673536] DHCPSRV_MEMFILE_LFC_SETUP setting up the Lease File Cleanup interval to 3600 sec
+2024-08-07 16:34:04.282 WARN  [kea-dhcp4.dhcpsrv/1.137457490673536] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface docker0 is not running
+2024-08-07 16:34:04.322 WARN  [kea-dhcp4.dhcpsrv/1.137457490673536] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface veth081c2ba has no usable IPv4 addresses configured
+2024-08-07 16:34:04.322 INFO  [kea-dhcp4.dhcp4/1.137457490673536] DHCP4_OPEN_SOCKETS_FAILED maximum number of open service sockets attempts: 0, has been exhausted without success
+2024-08-07 16:34:04.322 INFO  [kea-dhcp4.dhcpsrv/1.137457490673536] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for V4 leases in subnet 172.17.0.0/16
+2024-08-07 16:34:04.322 WARN  [kea-dhcp4.dhcp4/1.137457490673536] DHCP4_MULTI_THREADING_INFO enabled: yes, number of threads: 4, queue size: 28
+2024-08-07 16:34:04.322 INFO  [kea-dhcp4.dhcp4/1.137457490673536] DHCP4_STARTED Kea DHCPv4 server version 2.6.1 started
+2024-08-07 16:37:54.618 INFO  [kea-dhcp4.commands/1.137457490673536] COMMAND_RECEIVED Received command 'shutdown'
+2024-08-07 16:37:54.618 INFO  [kea-dhcp4.dhcp4/1.137457490673536] DHCP4_SHUTDOWN server shutdown
+2024-08-07 16:38:33.115 INFO  [kea-dhcp4.hosts/1.129961783522800] HOSTS_BACKENDS_REGISTERED the following host backend types are available: mysql postgresql 
+2024-08-07 16:38:33.115 WARN  [kea-dhcp4.dhcpsrv/1.129961783522800] DHCPSRV_MT_DISABLED_QUEUE_CONTROL disabling dhcp queue control when multi-threading is enabled.
+2024-08-07 16:38:33.115 WARN  [kea-dhcp4.dhcp4/1.129961783522800] DHCP4_RESERVATIONS_LOOKUP_FIRST_ENABLED Multi-threading is enabled and host reservations lookup is always performed first.
+2024-08-07 16:38:33.115 INFO  [kea-dhcp4.dhcpsrv/1.129961783522800] DHCPSRV_CFGMGR_NEW_SUBNET4 a new subnet has been added to configuration: 172.17.0.0/16 with params: t1=900, t2=1800, valid-lifetime=6000
+2024-08-07 16:38:33.115 INFO  [kea-dhcp4.dhcpsrv/1.129961783522800] DHCPSRV_CFGMGR_SOCKET_TYPE_SELECT using socket type raw
+2024-08-07 16:38:33.116 INFO  [kea-dhcp4.dhcpsrv/1.129961783522800] DHCPSRV_CFGMGR_SOCKET_TYPE_SELECT using socket type raw
+2024-08-07 16:38:33.116 INFO  [kea-dhcp4.commands/1.129961783522800] COMMAND_ACCEPTOR_START Starting to accept connections via unix domain socket bound to /kea/sockets/dhcp4.socket
+2024-08-07 16:38:33.116 INFO  [kea-dhcp4.dhcp4/1.129961783522800] DHCP4_CONFIG_COMPLETE DHCPv4 server has completed configuration: added IPv4 subnets: 1; DDNS: disabled
+2024-08-07 16:38:33.117 INFO  [kea-dhcp4.dhcpsrv/1.129961783522800] DHCPSRV_MEMFILE_DB opening memory file lease database: lfc-interval=3600 name=/kea/leases/dhcp4.csv type=memfile universe=4
+2024-08-07 16:38:33.118 INFO  [kea-dhcp4.dhcpsrv/1.129961783522800] DHCPSRV_MEMFILE_LEASE_FILE_LOAD loading leases from file /kea/leases/dhcp4.csv
+2024-08-07 16:38:33.118 INFO  [kea-dhcp4.dhcpsrv/1.129961783522800] DHCPSRV_MEMFILE_EXTRACT_EXTENDED_INFO4 extracting extended info saw 0 leases, extended info sanity checks modified 0 / updated 0 leases and 0 leases have relay or remote id
+2024-08-07 16:38:33.118 INFO  [kea-dhcp4.dhcpsrv/1.129961783522800] DHCPSRV_MEMFILE_LFC_SETUP setting up the Lease File Cleanup interval to 3600 sec
+2024-08-07 16:38:33.162 WARN  [kea-dhcp4.dhcpsrv/1.129961783522800] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface docker0 is not running
+2024-08-07 16:38:33.234 WARN  [kea-dhcp4.dhcpsrv/1.129961783522800] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface veth273ce12 has no usable IPv4 addresses configured
+2024-08-07 16:38:33.234 INFO  [kea-dhcp4.dhcp4/1.129961783522800] DHCP4_OPEN_SOCKETS_FAILED maximum number of open service sockets attempts: 0, has been exhausted without success
+2024-08-07 16:38:33.234 INFO  [kea-dhcp4.dhcpsrv/1.129961783522800] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for V4 leases in subnet 172.17.0.0/16
+2024-08-07 16:38:33.235 WARN  [kea-dhcp4.dhcp4/1.129961783522800] DHCP4_MULTI_THREADING_INFO enabled: yes, number of threads: 4, queue size: 28
+2024-08-07 16:38:33.236 INFO  [kea-dhcp4.dhcp4/1.129961783522800] DHCP4_STARTED Kea DHCPv4 server version 2.7.1 started
+2024-08-07 17:00:19.923 INFO  [kea-dhcp4.commands/1.129961783522800] COMMAND_RECEIVED Received command 'lease4-get-all'
+2024-08-07 17:00:35.149 INFO  [kea-dhcp4.commands/1.129961783522800] COMMAND_RECEIVED Received command 'lease4-get-all'
+2024-08-07 17:03:37.834 INFO  [kea-dhcp4.commands/1.129961783522800] COMMAND_RECEIVED Received command 'config-get'
+2024-08-07 17:05:57.715 INFO  [kea-dhcp4.commands/1.129961783522800] COMMAND_RECEIVED Received command 'subnet4-list'
+2024-08-07 17:06:21.277 INFO  [kea-dhcp4.commands/1.129961783522800] COMMAND_RECEIVED Received command 'subnet4-add'
+2024-08-07 17:06:37.994 INFO  [kea-dhcp4.commands/1.129961783522800] COMMAND_RECEIVED Received command 'dhcp4-enable'
+2024-08-07 17:06:50.369 INFO  [kea-dhcp4.commands/1.129961783522800] COMMAND_RECEIVED Received command 'dhcp-enable'
+2024-08-07 17:06:54.537 INFO  [kea-dhcp4.commands/1.129961783522800] COMMAND_RECEIVED Received command 'subnet4-add'
+2024-08-07 17:10:06.052 INFO  [kea-dhcp4.commands/1.129961783522800] COMMAND_RECEIVED Received command 'shutdown'
+2024-08-07 17:10:06.052 INFO  [kea-dhcp4.dhcp4/1.129961783522800] DHCP4_SHUTDOWN server shutdown
+2024-08-07 17:10:11.639 INFO  [kea-dhcp4.hosts/1.127589377353200] HOSTS_BACKENDS_REGISTERED the following host backend types are available: mysql postgresql 
+2024-08-07 17:10:11.639 WARN  [kea-dhcp4.dhcpsrv/1.127589377353200] DHCPSRV_MT_DISABLED_QUEUE_CONTROL disabling dhcp queue control when multi-threading is enabled.
+2024-08-07 17:10:11.639 WARN  [kea-dhcp4.dhcp4/1.127589377353200] DHCP4_RESERVATIONS_LOOKUP_FIRST_ENABLED Multi-threading is enabled and host reservations lookup is always performed first.
+2024-08-07 17:10:11.639 INFO  [kea-dhcp4.dhcpsrv/1.127589377353200] DHCPSRV_CFGMGR_NEW_SUBNET4 a new subnet has been added to configuration: 172.17.0.0/16 with params: t1=900, t2=1800, valid-lifetime=6000
+2024-08-07 17:10:11.639 INFO  [kea-dhcp4.dhcpsrv/1.127589377353200] DHCPSRV_CFGMGR_SOCKET_TYPE_SELECT using socket type raw
+2024-08-07 17:10:11.639 INFO  [kea-dhcp4.dhcpsrv/1.127589377353200] DHCPSRV_CFGMGR_SOCKET_TYPE_SELECT using socket type raw
+2024-08-07 17:10:11.639 INFO  [kea-dhcp4.commands/1.127589377353200] COMMAND_ACCEPTOR_START Starting to accept connections via unix domain socket bound to /kea/sockets/dhcp4.socket
+2024-08-07 17:10:11.640 INFO  [kea-dhcp4.dhcp4/1.127589377353200] DHCP4_CONFIG_COMPLETE DHCPv4 server has completed configuration: added IPv4 subnets: 1; DDNS: disabled
+2024-08-07 17:10:11.641 INFO  [kea-dhcp4.dhcpsrv/1.127589377353200] DHCPSRV_MEMFILE_DB opening memory file lease database: lfc-interval=3600 name=/kea/leases/dhcp4.csv type=memfile universe=4
+2024-08-07 17:10:11.641 INFO  [kea-dhcp4.dhcpsrv/1.127589377353200] DHCPSRV_MEMFILE_LEASE_FILE_LOAD loading leases from file /kea/leases/dhcp4.csv
+2024-08-07 17:10:11.641 INFO  [kea-dhcp4.dhcpsrv/1.127589377353200] DHCPSRV_MEMFILE_EXTRACT_EXTENDED_INFO4 extracting extended info saw 0 leases, extended info sanity checks modified 0 / updated 0 leases and 0 leases have relay or remote id
+2024-08-07 17:10:11.641 INFO  [kea-dhcp4.dhcpsrv/1.127589377353200] DHCPSRV_MEMFILE_LFC_SETUP setting up the Lease File Cleanup interval to 3600 sec
+2024-08-07 17:10:11.734 WARN  [kea-dhcp4.dhcpsrv/1.127589377353200] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface docker0 is not running
+2024-08-07 17:10:11.735 WARN  [kea-dhcp4.dhcpsrv/1.127589377353200] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface br-fb4bf8095ba3 is not running
+2024-08-07 17:10:11.735 WARN  [kea-dhcp4.dhcpsrv/1.127589377353200] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface vethc1226d7 is down
+2024-08-07 17:10:11.735 WARN  [kea-dhcp4.dhcpsrv/1.127589377353200] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface veth8fe1272 is not running
+2024-08-07 17:10:11.735 INFO  [kea-dhcp4.dhcp4/1.127589377353200] DHCP4_OPEN_SOCKETS_FAILED maximum number of open service sockets attempts: 0, has been exhausted without success
+2024-08-07 17:10:11.735 INFO  [kea-dhcp4.dhcpsrv/1.127589377353200] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for V4 leases in subnet 172.17.0.0/16
+2024-08-07 17:10:11.735 WARN  [kea-dhcp4.dhcp4/1.127589377353200] DHCP4_MULTI_THREADING_INFO enabled: yes, number of threads: 4, queue size: 28
+2024-08-07 17:10:11.735 INFO  [kea-dhcp4.dhcp4/1.127589377353200] DHCP4_STARTED Kea DHCPv4 server version 2.7.1 started
+2024-08-07 17:16:29.117 INFO  [kea-dhcp4.commands/1.127589377353200] COMMAND_RECEIVED Received command 'subnet4-list'
+2024-08-07 17:17:03.099 INFO  [kea-dhcp4.commands/1.127589377353200] COMMAND_RECEIVED Received command 'lease4-get-all'
+2024-08-07 17:17:21.590 INFO  [kea-dhcp4.commands/1.127589377353200] COMMAND_RECEIVED Received command 'config-get'
+2024-08-07 17:17:34.755 INFO  [kea-dhcp4.commands/1.127589377353200] COMMAND_RECEIVED Received command 'shutdown'
+2024-08-07 17:17:34.755 INFO  [kea-dhcp4.dhcp4/1.127589377353200] DHCP4_SHUTDOWN server shutdown
+2024-08-07 17:20:13.958 INFO  [kea-dhcp4.hosts/1.136298262279664] HOSTS_BACKENDS_REGISTERED the following host backend types are available: mysql postgresql 
+2024-08-07 17:20:13.958 WARN  [kea-dhcp4.dhcpsrv/1.136298262279664] DHCPSRV_MT_DISABLED_QUEUE_CONTROL disabling dhcp queue control when multi-threading is enabled.
+2024-08-07 17:20:13.958 WARN  [kea-dhcp4.dhcp4/1.136298262279664] DHCP4_RESERVATIONS_LOOKUP_FIRST_ENABLED Multi-threading is enabled and host reservations lookup is always performed first.
+2024-08-07 17:20:13.959 INFO  [kea-dhcp4.hooks/1.136298262279664] HOOKS_LIBRARY_CLOSED hooks library /usr/local/lib/kea/hooks/libdhcp_lease_cmds.so successfully closed
+2024-08-07 17:20:13.959 INFO  [kea-dhcp4.hooks/1.136298262279664] HOOKS_LIBRARY_CLOSED hooks library /usr/local/lib/kea/hooks/libdhcp_perfmon.so successfully closed
+2024-08-07 17:20:13.959 INFO  [kea-dhcp4.dhcpsrv/1.136298262279664] DHCPSRV_CFGMGR_NEW_SUBNET4 a new subnet has been added to configuration: 172.17.0.0/16 with params: t1=900, t2=1800, valid-lifetime=6000
+2024-08-07 17:20:13.959 INFO  [kea-dhcp4.dhcpsrv/1.136298262279664] DHCPSRV_CFGMGR_SOCKET_TYPE_SELECT using socket type raw
+2024-08-07 17:20:14.046 INFO  [kea-dhcp4.dhcpsrv/1.136298262279664] DHCPSRV_CFGMGR_SOCKET_TYPE_SELECT using socket type raw
+2024-08-07 17:20:14.046 INFO  [kea-dhcp4.commands/1.136298262279664] COMMAND_ACCEPTOR_START Starting to accept connections via unix domain socket bound to /kea/sockets/dhcp4.socket
+2024-08-07 17:20:14.047 INFO  [kea-dhcp4.lease-cmds-hooks/1.136298262279664] LEASE_CMDS_INIT_OK loading Lease Commands hooks library successful
+2024-08-07 17:20:14.047 INFO  [kea-dhcp4.hooks/1.136298262279664] HOOKS_LIBRARY_LOADED hooks library /usr/local/lib/kea/hooks/libdhcp_lease_cmds.so successfully loaded
+2024-08-07 17:20:14.047 INFO  [kea-dhcp4.perfmon-hooks/1.136298262279664] PERFMON_INIT_OK loading PerfMon hooks library successful
+2024-08-07 17:20:14.047 INFO  [kea-dhcp4.hooks/1.136298262279664] HOOKS_LIBRARY_LOADED hooks library /usr/local/lib/kea/hooks/libdhcp_perfmon.so successfully loaded
+2024-08-07 17:20:14.047 INFO  [kea-dhcp4.dhcp4/1.136298262279664] DHCP4_CONFIG_COMPLETE DHCPv4 server has completed configuration: added IPv4 subnets: 1; DDNS: disabled
+2024-08-07 17:20:14.049 INFO  [kea-dhcp4.dhcpsrv/1.136298262279664] DHCPSRV_MEMFILE_DB opening memory file lease database: lfc-interval=3600 name=/kea/leases/dhcp4.csv type=memfile universe=4
+2024-08-07 17:20:14.050 INFO  [kea-dhcp4.dhcpsrv/1.136298262279664] DHCPSRV_MEMFILE_LEASE_FILE_LOAD loading leases from file /kea/leases/dhcp4.csv
+2024-08-07 17:20:14.050 INFO  [kea-dhcp4.dhcpsrv/1.136298262279664] DHCPSRV_MEMFILE_EXTRACT_EXTENDED_INFO4 extracting extended info saw 0 leases, extended info sanity checks modified 0 / updated 0 leases and 0 leases have relay or remote id
+2024-08-07 17:20:14.050 INFO  [kea-dhcp4.dhcpsrv/1.136298262279664] DHCPSRV_MEMFILE_LFC_SETUP setting up the Lease File Cleanup interval to 3600 sec
+2024-08-07 17:20:14.086 WARN  [kea-dhcp4.dhcpsrv/1.136298262279664] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface docker0 is not running
+2024-08-07 17:20:14.158 WARN  [kea-dhcp4.dhcpsrv/1.136298262279664] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface vetha5e2469 has no usable IPv4 addresses configured
+2024-08-07 17:20:14.158 INFO  [kea-dhcp4.dhcp4/1.136298262279664] DHCP4_OPEN_SOCKETS_FAILED maximum number of open service sockets attempts: 0, has been exhausted without success
+2024-08-07 17:20:14.158 INFO  [kea-dhcp4.dhcpsrv/1.136298262279664] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for V4 leases in subnet 172.17.0.0/16
+2024-08-07 17:20:14.158 WARN  [kea-dhcp4.dhcp4/1.136298262279664] DHCP4_MULTI_THREADING_INFO enabled: yes, number of threads: 4, queue size: 28
+2024-08-07 17:20:14.158 INFO  [kea-dhcp4.dhcp4/1.136298262279664] DHCP4_STARTED Kea DHCPv4 server version 2.7.1 started
+2024-08-07 17:20:16.119 INFO  [kea-dhcp4.commands/1.136298262279664] COMMAND_RECEIVED Received command 'reservation-get-all'
+2024-08-07 17:21:41.483 INFO  [kea-dhcp4.commands/1.136298262279664] COMMAND_RECEIVED Received command 'config-get'
+2024-08-07 17:21:50.869 INFO  [kea-dhcp4.commands/1.136298262279664] COMMAND_RECEIVED Received command 'reservation-get-all'
+2024-08-07 17:21:53.482 INFO  [kea-dhcp4.commands/1.136298262279664] COMMAND_RECEIVED Received command 'shutdown'
+2024-08-07 17:21:53.482 INFO  [kea-dhcp4.dhcp4/1.136298262279664] DHCP4_SHUTDOWN server shutdown
+2024-08-07 17:21:53.618 INFO  [kea-dhcp4.perfmon-hooks/1.136298262279664] PERFMON_DEINIT_OK unloading PerfMon hooks library successful
+2024-08-07 17:21:53.618 INFO  [kea-dhcp4.lease-cmds-hooks/1.136298262279664] LEASE_CMDS_DEINIT_OK unloading Lease Commands hooks library successful
+2024-08-07 17:21:53.618 INFO  [kea-dhcp4.hooks/1.136298262279664] HOOKS_LIBRARY_CLOSED hooks library /usr/local/lib/kea/hooks/libdhcp_perfmon.so successfully closed
+2024-08-07 17:21:53.618 INFO  [kea-dhcp4.hooks/1.136298262279664] HOOKS_LIBRARY_CLOSED hooks library /usr/local/lib/kea/hooks/libdhcp_lease_cmds.so successfully closed
+2024-08-07 18:08:11.494 INFO  [kea-dhcp4.hosts/1.133618791990768] HOSTS_BACKENDS_REGISTERED the following host backend types are available: mysql postgresql 
+2024-08-07 18:08:11.495 WARN  [kea-dhcp4.dhcpsrv/1.133618791990768] DHCPSRV_MT_DISABLED_QUEUE_CONTROL disabling dhcp queue control when multi-threading is enabled.
+2024-08-07 18:08:11.495 WARN  [kea-dhcp4.dhcp4/1.133618791990768] DHCP4_RESERVATIONS_LOOKUP_FIRST_ENABLED Multi-threading is enabled and host reservations lookup is always performed first.
+2024-08-07 18:08:11.495 INFO  [kea-dhcp4.hooks/1.133618791990768] HOOKS_LIBRARY_CLOSED hooks library /usr/local/lib/kea/hooks/libdhcp_lease_cmds.so successfully closed
+2024-08-07 18:08:11.496 INFO  [kea-dhcp4.hooks/1.133618791990768] HOOKS_LIBRARY_CLOSED hooks library /usr/local/lib/kea/hooks/libdhcp_perfmon.so successfully closed
+2024-08-07 18:08:11.496 INFO  [kea-dhcp4.dhcpsrv/1.133618791990768] DHCPSRV_CFGMGR_NEW_SUBNET4 a new subnet has been added to configuration: 185.255.172.0/22 with params: t1=900, t2=1800, valid-lifetime=6000
+2024-08-07 18:08:11.496 INFO  [kea-dhcp4.dhcpsrv/1.133618791990768] DHCPSRV_CFGMGR_SOCKET_TYPE_SELECT using socket type raw
+2024-08-07 18:08:11.535 INFO  [kea-dhcp4.dhcpsrv/1.133618791990768] DHCPSRV_CFGMGR_SOCKET_TYPE_SELECT using socket type raw
+2024-08-07 18:08:11.535 INFO  [kea-dhcp4.commands/1.133618791990768] COMMAND_ACCEPTOR_START Starting to accept connections via unix domain socket bound to /kea/sockets/dhcp4.socket
+2024-08-07 18:08:11.535 INFO  [kea-dhcp4.lease-cmds-hooks/1.133618791990768] LEASE_CMDS_INIT_OK loading Lease Commands hooks library successful
+2024-08-07 18:08:11.535 INFO  [kea-dhcp4.hooks/1.133618791990768] HOOKS_LIBRARY_LOADED hooks library /usr/local/lib/kea/hooks/libdhcp_lease_cmds.so successfully loaded
+2024-08-07 18:08:11.535 INFO  [kea-dhcp4.perfmon-hooks/1.133618791990768] PERFMON_INIT_OK loading PerfMon hooks library successful
+2024-08-07 18:08:11.535 INFO  [kea-dhcp4.hooks/1.133618791990768] HOOKS_LIBRARY_LOADED hooks library /usr/local/lib/kea/hooks/libdhcp_perfmon.so successfully loaded
+2024-08-07 18:08:11.535 INFO  [kea-dhcp4.dhcp4/1.133618791990768] DHCP4_CONFIG_COMPLETE DHCPv4 server has completed configuration: added IPv4 subnets: 1; DDNS: disabled
+2024-08-07 18:08:11.536 INFO  [kea-dhcp4.dhcpsrv/1.133618791990768] DHCPSRV_MEMFILE_DB opening memory file lease database: lfc-interval=3600 name=/kea/leases/dhcp4.csv type=memfile universe=4
+2024-08-07 18:08:11.536 INFO  [kea-dhcp4.dhcpsrv/1.133618791990768] DHCPSRV_MEMFILE_LEASE_FILE_LOAD loading leases from file /kea/leases/dhcp4.csv
+2024-08-07 18:08:11.536 INFO  [kea-dhcp4.dhcpsrv/1.133618791990768] DHCPSRV_MEMFILE_EXTRACT_EXTENDED_INFO4 extracting extended info saw 0 leases, extended info sanity checks modified 0 / updated 0 leases and 0 leases have relay or remote id
+2024-08-07 18:08:11.536 INFO  [kea-dhcp4.dhcpsrv/1.133618791990768] DHCPSRV_MEMFILE_LFC_SETUP setting up the Lease File Cleanup interval to 3600 sec
+2024-08-07 18:08:11.564 WARN  [kea-dhcp4.dhcpsrv/1.133618791990768] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface docker0 is not running
+2024-08-07 18:08:11.564 WARN  [kea-dhcp4.dhcpsrv/1.133618791990768] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface br-fb4bf8095ba3 is not running
+2024-08-07 18:08:11.564 WARN  [kea-dhcp4.dhcpsrv/1.133618791990768] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface veth2e74d8a is not running
+2024-08-07 18:08:11.564 INFO  [kea-dhcp4.dhcp4/1.133618791990768] DHCP4_OPEN_SOCKETS_FAILED maximum number of open service sockets attempts: 0, has been exhausted without success
+2024-08-07 18:08:11.564 INFO  [kea-dhcp4.dhcpsrv/1.133618791990768] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for V4 leases in subnet 185.255.172.0/22
+2024-08-07 18:08:11.564 WARN  [kea-dhcp4.dhcp4/1.133618791990768] DHCP4_MULTI_THREADING_INFO enabled: yes, number of threads: 4, queue size: 28
+2024-08-07 18:08:11.564 INFO  [kea-dhcp4.dhcp4/1.133618791990768] DHCP4_STARTED Kea DHCPv4 server version 2.7.1 started

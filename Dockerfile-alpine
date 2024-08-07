@@ -21,9 +21,7 @@ RUN set -e && apk add --no-cache \
         boost-dev \
         openssl-dev \
         krb5-dev \
-        log4cplus-dev \
-        mariadb-dev \
-        postgresql-dev
+        log4cplus-dev
 
 ARG KEA_VERSION
 # Download and unpack the correct tarball (also verify the signature).

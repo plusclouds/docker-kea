@@ -16,6 +16,13 @@
             "dhcp-socket-type": "raw"
         },
 
+        "option-data": [
+            {
+                "name": "domain-name-servers",
+                "data": "8.8.4.4, 4.4.2.2"
+            }
+        ],
+
         // Kea supports control channel, which is a way to receive management
         // commands while the server is running. This is a Unix domain socket
         // that receives commands formatted in JSON, e.g. config-set (which sets
@@ -26,6 +33,15 @@
             "socket-type": "unix",
             "socket-name": "/kea/sockets/dhcp4.socket"
         },
+
+        "hooks-libraries": [
+            {
+                "library": "/usr/local/lib/kea/hooks/libdhcp_lease_cmds.so"
+            },
+            {
+                "library": "/usr/local/lib/kea/hooks/libdhcp_perfmon.so"
+            }
+        ],
 
         // Specifies credentials to access lease database.
         "lease-database": {

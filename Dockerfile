@@ -9,6 +9,11 @@ FROM debian:bullseye-slim AS base
 FROM base AS builder
 ARG DEBIAN_FRONTEND=noninteractive
 
+# PlusClouds Update: We removed the packages below because we will not be using them.
+# libmariadb-dev \
+# libmariadb-dev-compat \
+# postgresql-server-dev-all
+
 # Install all packages needed to build Kea.
 RUN apt-get update && apt-get install -y \
         apt-transport-https \
@@ -19,10 +24,7 @@ RUN apt-get update && apt-get install -y \
         libboost-system-dev \
         libkrb5-dev \
         liblog4cplus-dev \
-        libmariadb-dev \
-        libmariadb-dev-compat \
-        libssl-dev=1.1.1* \
-        postgresql-server-dev-all
+        libssl-dev=1.1.1*
 
 ARG KEA_VERSION
 # Download and unpack the correct tarball (also verify the signature).
@@ -38,7 +40,14 @@ WORKDIR /kea-${KEA_VERSION}
 
 # Configure with all the settings we want, and then build it.
 # This will take ~5 hours for arm/v7 on an average 4 core desktop.
-RUN ./configure --with-openssl --with-mysql --with-pgsql --with-gssapi --enable-static=no && \
+
+# Plusclouds Update: We removed mysql and pgsql support. Because we will be managing all the records from our own
+# orchestrator. We only need the dhcp part of the kea and API.
+
+#Original
+#RUN ./configure --with-openssl --with-mysql --with-pgsql --with-gssapi --enable-static=no && \
+#    make -j$(nproc)
+RUN ./configure --with-openssl --with-gssapi --enable-static=no && \
     make -j$(nproc)
 
 # Having this in its own step makes it easier to experiment.

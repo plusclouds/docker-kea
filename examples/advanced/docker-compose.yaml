@@ -10,7 +10,7 @@ version: '2'
 # !! ------------------------------------------------------------------------ !!
 services:
   dhcp4:
-    image: jonasal/kea-dhcp4:2
+    image: 10.128.0.100/kea-dhcp4:2.7.1
     restart: unless-stopped
     network_mode: host
     command: -c /kea/config/dhcp4.json
@@ -21,7 +21,7 @@ services:
       - ./logs:/kea/logs
 
   dhcp6:
-    image: jonasal/kea-dhcp6:2
+    image: 10.128.0.100/kea-dhcp6:2.7.1
     restart: unless-stopped
     network_mode: host
     command: -c /kea/config/dhcp6.json
@@ -32,7 +32,7 @@ services:
       - ./logs:/kea/logs
 
   ctrl-agent:
-    image: jonasal/kea-ctrl-agent:2
+    image: 10.128.0.100/kea-ctrl-agent:2.7.1
     restart: unless-stopped
     ports:
       - 8000:8000

@@ -6,8 +6,6 @@ modify it to our own requirements. For the original repo please checkout;
 
 [https://github.com/JonasAlfredsson/docker-kea](https://github.com/JonasAlfredsson/docker-kea)
 
-
-
 # docker-kea
 
 The ISC (Internet System Consortium) Kea DHCP server running inside a Docker

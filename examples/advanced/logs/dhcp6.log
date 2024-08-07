@@ -1,0 +1,181 @@
+2024-08-07 16:34:04.279 INFO  [kea-dhcp6.hosts/1.135561117208448] HOSTS_BACKENDS_REGISTERED the following host backend types are available: mysql postgresql 
+2024-08-07 16:34:04.279 WARN  [kea-dhcp6.dhcpsrv/1.135561117208448] DHCPSRV_MT_DISABLED_QUEUE_CONTROL disabling dhcp queue control when multi-threading is enabled.
+2024-08-07 16:34:04.279 WARN  [kea-dhcp6.dhcp6/1.135561117208448] DHCP6_RESERVATIONS_LOOKUP_FIRST_ENABLED Multi-threading is enabled and host reservations lookup is always performed first.
+2024-08-07 16:34:04.280 INFO  [kea-dhcp6.dhcpsrv/1.135561117208448] DHCPSRV_CFGMGR_NEW_SUBNET6 a new subnet has been added to configuration: 2001:db8:1::/64 with params: t1=900, t2=1800, valid-lifetime=6000, rapid-commit is false
+2024-08-07 16:34:04.280 INFO  [kea-dhcp6.dhcpsrv/1.135561117208448] DHCPSRV_CFGMGR_SOCKET_TYPE_SELECT using socket type raw
+2024-08-07 16:34:04.280 INFO  [kea-dhcp6.commands/1.135561117208448] COMMAND_ACCEPTOR_START Starting to accept connections via unix domain socket bound to /kea/sockets/dhcp6.socket
+2024-08-07 16:34:04.280 INFO  [kea-dhcp6.dhcp6/1.135561117208448] DHCP6_CONFIG_COMPLETE DHCPv6 server has completed configuration: added IPv6 subnets: 1; DDNS: disabled
+2024-08-07 16:34:04.281 INFO  [kea-dhcp6.dhcpsrv/1.135561117208448] DHCPSRV_MEMFILE_DB opening memory file lease database: lfc-interval=3600 name=/kea/leases/dhcp6.csv type=memfile universe=6
+2024-08-07 16:34:04.282 INFO  [kea-dhcp6.dhcpsrv/1.135561117208448] DHCPSRV_MEMFILE_LEASE_FILE_LOAD loading leases from file /kea/leases/dhcp6.csv
+2024-08-07 16:34:04.282 INFO  [kea-dhcp6.dhcpsrv/1.135561117208448] DHCPSRV_MEMFILE_BUILD_EXTENDED_INFO_TABLES6 building extended info tables saw 0 leases, extended info sanity checks modified 0 leases and 0 leases were entered into tables
+2024-08-07 16:34:04.282 INFO  [kea-dhcp6.dhcpsrv/1.135561117208448] DHCPSRV_MEMFILE_LFC_SETUP setting up the Lease File Cleanup interval to 3600 sec
+2024-08-07 16:34:04.282 INFO  [kea-dhcp6.dhcp6/1.135561117208448] DHCP6_USING_SERVERID server is using server-id 00:01:00:01:2e:46:5e:7c:a4:bb:6d:58:4e:0f and stores in the file /usr/local/var/lib/kea/kea-dhcp6-serverid
+2024-08-07 16:34:04.283 WARN  [kea-dhcp6.dhcpsrv/1.135561117208448] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface docker0 is not running
+2024-08-07 16:34:04.283 WARN  [kea-dhcp6.dhcpsrv/1.135561117208448] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: Failed to open multicast socket on interface br-b951f01f1895, reason: Failed to open link-local socket on interface br-b951f01f1895: Failed to bind socket 19 to fe80::42:20ff:fe38:b5b2/port=547: Cannot assign requested address
+2024-08-07 16:34:04.283 WARN  [kea-dhcp6.dhcpsrv/1.135561117208448] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: Failed to open multicast socket on interface veth081c2ba, reason: Failed to open link-local socket on interface veth081c2ba: Failed to bind socket 19 to fe80::605c:70ff:fead:4401/port=547: Cannot assign requested address
+2024-08-07 16:34:04.283 INFO  [kea-dhcp6.dhcp6/1.135561117208448] DHCP6_OPEN_SOCKETS_FAILED maximum number of open service sockets attempts: 0, has been exhausted without success
+2024-08-07 16:34:04.283 INFO  [kea-dhcp6.dhcpsrv/1.135561117208448] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_NA leases in subnet 2001:db8:1::/64
+2024-08-07 16:34:04.283 INFO  [kea-dhcp6.dhcpsrv/1.135561117208448] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_TA leases in subnet 2001:db8:1::/64
+2024-08-07 16:34:04.283 INFO  [kea-dhcp6.dhcpsrv/1.135561117208448] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_PD leases in subnet 2001:db8:1::/64
+2024-08-07 16:34:04.283 WARN  [kea-dhcp6.dhcp6/1.135561117208448] DHCP6_MULTI_THREADING_INFO enabled: yes, number of threads: 4, queue size: 600
+2024-08-07 16:34:04.283 INFO  [kea-dhcp6.dhcp6/1.135561117208448] DHCP6_STARTED Kea DHCPv6 server version 2.6.1 started
+2024-08-07 16:37:54.617 INFO  [kea-dhcp6.commands/1.135561117208448] COMMAND_RECEIVED Received command 'shutdown'
+2024-08-07 16:37:54.617 INFO  [kea-dhcp6.dhcp6/1.135561117208448] DHCP6_SHUTDOWN server shutdown
+2024-08-07 16:38:33.115 INFO  [kea-dhcp6.hosts/1.125941194110448] HOSTS_BACKENDS_REGISTERED the following host backend types are available: mysql postgresql 
+2024-08-07 16:38:33.115 WARN  [kea-dhcp6.dhcpsrv/1.125941194110448] DHCPSRV_MT_DISABLED_QUEUE_CONTROL disabling dhcp queue control when multi-threading is enabled.
+2024-08-07 16:38:33.115 WARN  [kea-dhcp6.dhcp6/1.125941194110448] DHCP6_RESERVATIONS_LOOKUP_FIRST_ENABLED Multi-threading is enabled and host reservations lookup is always performed first.
+2024-08-07 16:38:33.115 INFO  [kea-dhcp6.dhcpsrv/1.125941194110448] DHCPSRV_CFGMGR_NEW_SUBNET6 a new subnet has been added to configuration: 2001:db8:1::/64 with params: t1=900, t2=1800, valid-lifetime=6000, rapid-commit is false
+2024-08-07 16:38:33.115 INFO  [kea-dhcp6.dhcpsrv/1.125941194110448] DHCPSRV_CFGMGR_SOCKET_TYPE_SELECT using socket type raw
+2024-08-07 16:38:33.116 INFO  [kea-dhcp6.commands/1.125941194110448] COMMAND_ACCEPTOR_START Starting to accept connections via unix domain socket bound to /kea/sockets/dhcp6.socket
+2024-08-07 16:38:33.116 INFO  [kea-dhcp6.dhcp6/1.125941194110448] DHCP6_CONFIG_COMPLETE DHCPv6 server has completed configuration: added IPv6 subnets: 1; DDNS: disabled
+2024-08-07 16:38:33.117 INFO  [kea-dhcp6.dhcpsrv/1.125941194110448] DHCPSRV_MEMFILE_DB opening memory file lease database: lfc-interval=3600 name=/kea/leases/dhcp6.csv type=memfile universe=6
+2024-08-07 16:38:33.118 INFO  [kea-dhcp6.dhcpsrv/1.125941194110448] DHCPSRV_MEMFILE_LEASE_FILE_LOAD loading leases from file /kea/leases/dhcp6.csv
+2024-08-07 16:38:33.118 INFO  [kea-dhcp6.dhcpsrv/1.125941194110448] DHCPSRV_MEMFILE_BUILD_EXTENDED_INFO_TABLES6 building extended info tables saw 0 leases, extended info sanity checks modified 0 leases and 0 leases were entered into tables
+2024-08-07 16:38:33.118 INFO  [kea-dhcp6.dhcpsrv/1.125941194110448] DHCPSRV_MEMFILE_LFC_SETUP setting up the Lease File Cleanup interval to 3600 sec
+2024-08-07 16:38:33.118 INFO  [kea-dhcp6.dhcp6/1.125941194110448] DHCP6_USING_SERVERID server is using server-id 00:01:00:01:2e:46:5f:89:a4:bb:6d:58:4e:0f and stores in the file /usr/local/var/lib/kea/kea-dhcp6-serverid
+2024-08-07 16:38:33.118 WARN  [kea-dhcp6.dhcpsrv/1.125941194110448] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface docker0 is not running
+2024-08-07 16:38:33.119 WARN  [kea-dhcp6.dhcpsrv/1.125941194110448] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: Failed to open multicast socket on interface br-fb4bf8095ba3, reason: Failed to open link-local socket on interface br-fb4bf8095ba3: Failed to bind socket 18 to fe80::42:88ff:fe5c:771a/port=547: Address not available
+2024-08-07 16:38:33.119 WARN  [kea-dhcp6.dhcpsrv/1.125941194110448] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: Failed to open multicast socket on interface veth273ce12, reason: Failed to open link-local socket on interface veth273ce12: Failed to bind socket 18 to fe80::68e1:6dff:fe21:d5df/port=547: Address not available
+2024-08-07 16:38:33.119 INFO  [kea-dhcp6.dhcp6/1.125941194110448] DHCP6_OPEN_SOCKETS_FAILED maximum number of open service sockets attempts: 0, has been exhausted without success
+2024-08-07 16:38:33.119 INFO  [kea-dhcp6.dhcpsrv/1.125941194110448] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_NA leases in subnet 2001:db8:1::/64
+2024-08-07 16:38:33.119 INFO  [kea-dhcp6.dhcpsrv/1.125941194110448] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_TA leases in subnet 2001:db8:1::/64
+2024-08-07 16:38:33.119 INFO  [kea-dhcp6.dhcpsrv/1.125941194110448] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_PD leases in subnet 2001:db8:1::/64
+2024-08-07 16:38:33.119 WARN  [kea-dhcp6.dhcp6/1.125941194110448] DHCP6_MULTI_THREADING_INFO enabled: yes, number of threads: 4, queue size: 600
+2024-08-07 16:38:33.119 INFO  [kea-dhcp6.dhcp6/1.125941194110448] DHCP6_STARTED Kea DHCPv6 server version 2.7.1 started
+2024-08-07 17:10:06.052 INFO  [kea-dhcp6.commands/1.125941194110448] COMMAND_RECEIVED Received command 'shutdown'
+2024-08-07 17:10:06.052 INFO  [kea-dhcp6.dhcp6/1.125941194110448] DHCP6_SHUTDOWN server shutdown
+2024-08-07 17:10:11.639 INFO  [kea-dhcp6.hosts/1.138233852642800] HOSTS_BACKENDS_REGISTERED the following host backend types are available: mysql postgresql 
+2024-08-07 17:10:11.639 WARN  [kea-dhcp6.dhcpsrv/1.138233852642800] DHCPSRV_MT_DISABLED_QUEUE_CONTROL disabling dhcp queue control when multi-threading is enabled.
+2024-08-07 17:10:11.639 WARN  [kea-dhcp6.dhcp6/1.138233852642800] DHCP6_RESERVATIONS_LOOKUP_FIRST_ENABLED Multi-threading is enabled and host reservations lookup is always performed first.
+2024-08-07 17:10:11.639 INFO  [kea-dhcp6.dhcpsrv/1.138233852642800] DHCPSRV_CFGMGR_NEW_SUBNET6 a new subnet has been added to configuration: 2001:db8:1::/64 with params: t1=900, t2=1800, valid-lifetime=6000, rapid-commit is false
+2024-08-07 17:10:11.639 INFO  [kea-dhcp6.dhcpsrv/1.138233852642800] DHCPSRV_CFGMGR_SOCKET_TYPE_SELECT using socket type raw
+2024-08-07 17:10:11.639 INFO  [kea-dhcp6.commands/1.138233852642800] COMMAND_ACCEPTOR_START Starting to accept connections via unix domain socket bound to /kea/sockets/dhcp6.socket
+2024-08-07 17:10:11.639 INFO  [kea-dhcp6.dhcp6/1.138233852642800] DHCP6_CONFIG_COMPLETE DHCPv6 server has completed configuration: added IPv6 subnets: 1; DDNS: disabled
+2024-08-07 17:10:11.641 INFO  [kea-dhcp6.dhcpsrv/1.138233852642800] DHCPSRV_MEMFILE_DB opening memory file lease database: lfc-interval=3600 name=/kea/leases/dhcp6.csv type=memfile universe=6
+2024-08-07 17:10:11.641 INFO  [kea-dhcp6.dhcpsrv/1.138233852642800] DHCPSRV_MEMFILE_LEASE_FILE_LOAD loading leases from file /kea/leases/dhcp6.csv
+2024-08-07 17:10:11.641 INFO  [kea-dhcp6.dhcpsrv/1.138233852642800] DHCPSRV_MEMFILE_BUILD_EXTENDED_INFO_TABLES6 building extended info tables saw 0 leases, extended info sanity checks modified 0 leases and 0 leases were entered into tables
+2024-08-07 17:10:11.641 INFO  [kea-dhcp6.dhcpsrv/1.138233852642800] DHCPSRV_MEMFILE_LFC_SETUP setting up the Lease File Cleanup interval to 3600 sec
+2024-08-07 17:10:11.642 INFO  [kea-dhcp6.dhcp6/1.138233852642800] DHCP6_USING_SERVERID server is using server-id 00:01:00:01:2e:46:5f:89:a4:bb:6d:58:4e:0f and stores in the file /usr/local/var/lib/kea/kea-dhcp6-serverid
+2024-08-07 17:10:11.735 WARN  [kea-dhcp6.dhcpsrv/1.138233852642800] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface docker0 is not running
+2024-08-07 17:10:11.735 WARN  [kea-dhcp6.dhcpsrv/1.138233852642800] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface br-fb4bf8095ba3 is not running
+2024-08-07 17:10:11.735 WARN  [kea-dhcp6.dhcpsrv/1.138233852642800] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface vethc1226d7 is down
+2024-08-07 17:10:11.735 WARN  [kea-dhcp6.dhcpsrv/1.138233852642800] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface veth8fe1272 is not running
+2024-08-07 17:10:11.735 INFO  [kea-dhcp6.dhcp6/1.138233852642800] DHCP6_OPEN_SOCKETS_FAILED maximum number of open service sockets attempts: 0, has been exhausted without success
+2024-08-07 17:10:11.735 INFO  [kea-dhcp6.dhcpsrv/1.138233852642800] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_NA leases in subnet 2001:db8:1::/64
+2024-08-07 17:10:11.735 INFO  [kea-dhcp6.dhcpsrv/1.138233852642800] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_TA leases in subnet 2001:db8:1::/64
+2024-08-07 17:10:11.735 INFO  [kea-dhcp6.dhcpsrv/1.138233852642800] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_PD leases in subnet 2001:db8:1::/64
+2024-08-07 17:10:11.735 WARN  [kea-dhcp6.dhcp6/1.138233852642800] DHCP6_MULTI_THREADING_INFO enabled: yes, number of threads: 4, queue size: 600
+2024-08-07 17:10:11.735 INFO  [kea-dhcp6.dhcp6/1.138233852642800] DHCP6_STARTED Kea DHCPv6 server version 2.7.1 started
+2024-08-07 17:17:34.756 INFO  [kea-dhcp6.commands/1.138233852642800] COMMAND_RECEIVED Received command 'shutdown'
+2024-08-07 17:17:34.756 INFO  [kea-dhcp6.dhcp6/1.138233852642800] DHCP6_SHUTDOWN server shutdown
+2024-08-07 17:20:13.957 INFO  [kea-dhcp6.hosts/1.136986199459312] HOSTS_BACKENDS_REGISTERED the following host backend types are available: mysql postgresql 
+2024-08-07 17:20:13.957 WARN  [kea-dhcp6.dhcpsrv/1.136986199459312] DHCPSRV_MT_DISABLED_QUEUE_CONTROL disabling dhcp queue control when multi-threading is enabled.
+2024-08-07 17:20:13.957 WARN  [kea-dhcp6.dhcp6/1.136986199459312] DHCP6_RESERVATIONS_LOOKUP_FIRST_ENABLED Multi-threading is enabled and host reservations lookup is always performed first.
+2024-08-07 17:20:13.957 INFO  [kea-dhcp6.dhcpsrv/1.136986199459312] DHCPSRV_CFGMGR_NEW_SUBNET6 a new subnet has been added to configuration: 2001:db8:1::/64 with params: t1=900, t2=1800, valid-lifetime=6000, rapid-commit is false
+2024-08-07 17:20:13.957 INFO  [kea-dhcp6.dhcpsrv/1.136986199459312] DHCPSRV_CFGMGR_SOCKET_TYPE_SELECT using socket type raw
+2024-08-07 17:20:13.958 INFO  [kea-dhcp6.commands/1.136986199459312] COMMAND_ACCEPTOR_START Starting to accept connections via unix domain socket bound to /kea/sockets/dhcp6.socket
+2024-08-07 17:20:13.958 INFO  [kea-dhcp6.dhcp6/1.136986199459312] DHCP6_CONFIG_COMPLETE DHCPv6 server has completed configuration: added IPv6 subnets: 1; DDNS: disabled
+2024-08-07 17:20:13.959 INFO  [kea-dhcp6.dhcpsrv/1.136986199459312] DHCPSRV_MEMFILE_DB opening memory file lease database: lfc-interval=3600 name=/kea/leases/dhcp6.csv type=memfile universe=6
+2024-08-07 17:20:13.960 INFO  [kea-dhcp6.dhcpsrv/1.136986199459312] DHCPSRV_MEMFILE_LEASE_FILE_LOAD loading leases from file /kea/leases/dhcp6.csv
+2024-08-07 17:20:13.960 INFO  [kea-dhcp6.dhcpsrv/1.136986199459312] DHCPSRV_MEMFILE_BUILD_EXTENDED_INFO_TABLES6 building extended info tables saw 0 leases, extended info sanity checks modified 0 leases and 0 leases were entered into tables
+2024-08-07 17:20:13.960 INFO  [kea-dhcp6.dhcpsrv/1.136986199459312] DHCPSRV_MEMFILE_LFC_SETUP setting up the Lease File Cleanup interval to 3600 sec
+2024-08-07 17:20:13.960 INFO  [kea-dhcp6.dhcp6/1.136986199459312] DHCP6_USING_SERVERID server is using server-id 00:01:00:01:2e:46:5f:89:a4:bb:6d:58:4e:0f and stores in the file /usr/local/var/lib/kea/kea-dhcp6-serverid
+2024-08-07 17:20:14.047 WARN  [kea-dhcp6.dhcpsrv/1.136986199459312] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface docker0 is not running
+2024-08-07 17:20:14.047 WARN  [kea-dhcp6.dhcpsrv/1.136986199459312] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface br-fb4bf8095ba3 is not running
+2024-08-07 17:20:14.047 WARN  [kea-dhcp6.dhcpsrv/1.136986199459312] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface veth6fd2812 is down
+2024-08-07 17:20:14.047 WARN  [kea-dhcp6.dhcpsrv/1.136986199459312] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface vetha5e2469 is not running
+2024-08-07 17:20:14.047 INFO  [kea-dhcp6.dhcp6/1.136986199459312] DHCP6_OPEN_SOCKETS_FAILED maximum number of open service sockets attempts: 0, has been exhausted without success
+2024-08-07 17:20:14.047 INFO  [kea-dhcp6.dhcpsrv/1.136986199459312] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_NA leases in subnet 2001:db8:1::/64
+2024-08-07 17:20:14.047 INFO  [kea-dhcp6.dhcpsrv/1.136986199459312] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_TA leases in subnet 2001:db8:1::/64
+2024-08-07 17:20:14.047 INFO  [kea-dhcp6.dhcpsrv/1.136986199459312] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_PD leases in subnet 2001:db8:1::/64
+2024-08-07 17:20:14.047 WARN  [kea-dhcp6.dhcp6/1.136986199459312] DHCP6_MULTI_THREADING_INFO enabled: yes, number of threads: 4, queue size: 600
+2024-08-07 17:20:14.047 INFO  [kea-dhcp6.dhcp6/1.136986199459312] DHCP6_STARTED Kea DHCPv6 server version 2.7.1 started
+2024-08-07 17:21:53.482 INFO  [kea-dhcp6.commands/1.136986199459312] COMMAND_RECEIVED Received command 'shutdown'
+2024-08-07 17:21:53.482 INFO  [kea-dhcp6.dhcp6/1.136986199459312] DHCP6_SHUTDOWN server shutdown
+2024-08-07 18:04:09.099 INFO  [kea-dhcp6.hosts/1.124423186462192] HOSTS_BACKENDS_REGISTERED the following host backend types are available: mysql postgresql 
+2024-08-07 18:04:09.099 WARN  [kea-dhcp6.dhcpsrv/1.124423186462192] DHCPSRV_MT_DISABLED_QUEUE_CONTROL disabling dhcp queue control when multi-threading is enabled.
+2024-08-07 18:04:09.099 WARN  [kea-dhcp6.dhcp6/1.124423186462192] DHCP6_RESERVATIONS_LOOKUP_FIRST_ENABLED Multi-threading is enabled and host reservations lookup is always performed first.
+2024-08-07 18:04:09.099 INFO  [kea-dhcp6.dhcpsrv/1.124423186462192] DHCPSRV_CFGMGR_NEW_SUBNET6 a new subnet has been added to configuration: 2001:db8:1::/64 with params: t1=900, t2=1800, valid-lifetime=6000, rapid-commit is false
+2024-08-07 18:04:09.099 INFO  [kea-dhcp6.dhcpsrv/1.124423186462192] DHCPSRV_CFGMGR_SOCKET_TYPE_SELECT using socket type raw
+2024-08-07 18:04:09.099 INFO  [kea-dhcp6.commands/1.124423186462192] COMMAND_ACCEPTOR_START Starting to accept connections via unix domain socket bound to /kea/sockets/dhcp6.socket
+2024-08-07 18:04:09.099 INFO  [kea-dhcp6.dhcp6/1.124423186462192] DHCP6_CONFIG_COMPLETE DHCPv6 server has completed configuration: added IPv6 subnets: 1; DDNS: disabled
+2024-08-07 18:04:09.101 INFO  [kea-dhcp6.dhcpsrv/1.124423186462192] DHCPSRV_MEMFILE_DB opening memory file lease database: lfc-interval=3600 name=/kea/leases/dhcp6.csv type=memfile universe=6
+2024-08-07 18:04:09.102 INFO  [kea-dhcp6.dhcpsrv/1.124423186462192] DHCPSRV_MEMFILE_LEASE_FILE_LOAD loading leases from file /kea/leases/dhcp6.csv
+2024-08-07 18:04:09.102 INFO  [kea-dhcp6.dhcpsrv/1.124423186462192] DHCPSRV_MEMFILE_BUILD_EXTENDED_INFO_TABLES6 building extended info tables saw 0 leases, extended info sanity checks modified 0 leases and 0 leases were entered into tables
+2024-08-07 18:04:09.102 INFO  [kea-dhcp6.dhcpsrv/1.124423186462192] DHCPSRV_MEMFILE_LFC_SETUP setting up the Lease File Cleanup interval to 3600 sec
+2024-08-07 18:04:09.102 INFO  [kea-dhcp6.dhcp6/1.124423186462192] DHCP6_USING_SERVERID server is using server-id 00:01:00:01:2e:46:5f:89:a4:bb:6d:58:4e:0f and stores in the file /usr/local/var/lib/kea/kea-dhcp6-serverid
+2024-08-07 18:04:09.103 WARN  [kea-dhcp6.dhcpsrv/1.124423186462192] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface docker0 is not running
+2024-08-07 18:04:09.103 WARN  [kea-dhcp6.dhcpsrv/1.124423186462192] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: Failed to open multicast socket on interface vetha303312, reason: Failed to open link-local socket on interface vetha303312: Failed to bind socket 20 to fe80::c00b:faff:feef:d11b/port=547: Address not available
+2024-08-07 18:04:09.103 INFO  [kea-dhcp6.dhcp6/1.124423186462192] DHCP6_OPEN_SOCKETS_FAILED maximum number of open service sockets attempts: 0, has been exhausted without success
+2024-08-07 18:04:09.103 INFO  [kea-dhcp6.dhcpsrv/1.124423186462192] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_NA leases in subnet 2001:db8:1::/64
+2024-08-07 18:04:09.103 INFO  [kea-dhcp6.dhcpsrv/1.124423186462192] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_TA leases in subnet 2001:db8:1::/64
+2024-08-07 18:04:09.103 INFO  [kea-dhcp6.dhcpsrv/1.124423186462192] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_PD leases in subnet 2001:db8:1::/64
+2024-08-07 18:04:09.103 WARN  [kea-dhcp6.dhcp6/1.124423186462192] DHCP6_MULTI_THREADING_INFO enabled: yes, number of threads: 4, queue size: 600
+2024-08-07 18:04:09.103 INFO  [kea-dhcp6.dhcp6/1.124423186462192] DHCP6_STARTED Kea DHCPv6 server version 2.7.1 started
+2024-08-07 18:04:16.436 INFO  [kea-dhcp6.commands/1.124423186462192] COMMAND_RECEIVED Received command 'shutdown'
+2024-08-07 18:04:16.436 INFO  [kea-dhcp6.dhcp6/1.124423186462192] DHCP6_SHUTDOWN server shutdown
+2024-08-07 18:05:25.015 INFO  [kea-dhcp6.hosts/1.130243843855856] HOSTS_BACKENDS_REGISTERED the following host backend types are available: mysql postgresql 
+2024-08-07 18:05:25.015 WARN  [kea-dhcp6.dhcpsrv/1.130243843855856] DHCPSRV_MT_DISABLED_QUEUE_CONTROL disabling dhcp queue control when multi-threading is enabled.
+2024-08-07 18:05:25.015 WARN  [kea-dhcp6.dhcp6/1.130243843855856] DHCP6_RESERVATIONS_LOOKUP_FIRST_ENABLED Multi-threading is enabled and host reservations lookup is always performed first.
+2024-08-07 18:05:25.015 INFO  [kea-dhcp6.dhcpsrv/1.130243843855856] DHCPSRV_CFGMGR_NEW_SUBNET6 a new subnet has been added to configuration: 2001:db8:1::/64 with params: t1=900, t2=1800, valid-lifetime=6000, rapid-commit is false
+2024-08-07 18:05:25.015 INFO  [kea-dhcp6.dhcpsrv/1.130243843855856] DHCPSRV_CFGMGR_SOCKET_TYPE_SELECT using socket type raw
+2024-08-07 18:05:25.015 INFO  [kea-dhcp6.commands/1.130243843855856] COMMAND_ACCEPTOR_START Starting to accept connections via unix domain socket bound to /kea/sockets/dhcp6.socket
+2024-08-07 18:05:25.016 INFO  [kea-dhcp6.dhcp6/1.130243843855856] DHCP6_CONFIG_COMPLETE DHCPv6 server has completed configuration: added IPv6 subnets: 1; DDNS: disabled
+2024-08-07 18:05:25.017 INFO  [kea-dhcp6.dhcpsrv/1.130243843855856] DHCPSRV_MEMFILE_DB opening memory file lease database: lfc-interval=3600 name=/kea/leases/dhcp6.csv type=memfile universe=6
+2024-08-07 18:05:25.018 INFO  [kea-dhcp6.dhcpsrv/1.130243843855856] DHCPSRV_MEMFILE_LEASE_FILE_LOAD loading leases from file /kea/leases/dhcp6.csv
+2024-08-07 18:05:25.018 INFO  [kea-dhcp6.dhcpsrv/1.130243843855856] DHCPSRV_MEMFILE_BUILD_EXTENDED_INFO_TABLES6 building extended info tables saw 0 leases, extended info sanity checks modified 0 leases and 0 leases were entered into tables
+2024-08-07 18:05:25.018 INFO  [kea-dhcp6.dhcpsrv/1.130243843855856] DHCPSRV_MEMFILE_LFC_SETUP setting up the Lease File Cleanup interval to 3600 sec
+2024-08-07 18:05:25.018 INFO  [kea-dhcp6.dhcp6/1.130243843855856] DHCP6_USING_SERVERID server is using server-id 00:01:00:01:2e:46:5f:89:a4:bb:6d:58:4e:0f and stores in the file /usr/local/var/lib/kea/kea-dhcp6-serverid
+2024-08-07 18:05:25.019 WARN  [kea-dhcp6.dhcpsrv/1.130243843855856] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface docker0 is not running
+2024-08-07 18:05:25.019 WARN  [kea-dhcp6.dhcpsrv/1.130243843855856] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: Failed to open multicast socket on interface veth6bcc63e, reason: Failed to open link-local socket on interface veth6bcc63e: Failed to bind socket 20 to fe80::f021:f1ff:fe71:978/port=547: Address not available
+2024-08-07 18:05:25.019 INFO  [kea-dhcp6.dhcp6/1.130243843855856] DHCP6_OPEN_SOCKETS_FAILED maximum number of open service sockets attempts: 0, has been exhausted without success
+2024-08-07 18:05:25.019 INFO  [kea-dhcp6.dhcpsrv/1.130243843855856] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_NA leases in subnet 2001:db8:1::/64
+2024-08-07 18:05:25.019 INFO  [kea-dhcp6.dhcpsrv/1.130243843855856] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_TA leases in subnet 2001:db8:1::/64
+2024-08-07 18:05:25.019 INFO  [kea-dhcp6.dhcpsrv/1.130243843855856] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_PD leases in subnet 2001:db8:1::/64
+2024-08-07 18:05:25.019 WARN  [kea-dhcp6.dhcp6/1.130243843855856] DHCP6_MULTI_THREADING_INFO enabled: yes, number of threads: 4, queue size: 600
+2024-08-07 18:05:25.019 INFO  [kea-dhcp6.dhcp6/1.130243843855856] DHCP6_STARTED Kea DHCPv6 server version 2.7.1 started
+2024-08-07 18:05:27.003 INFO  [kea-dhcp6.commands/1.130243843855856] COMMAND_RECEIVED Received command 'shutdown'
+2024-08-07 18:05:27.003 INFO  [kea-dhcp6.dhcp6/1.130243843855856] DHCP6_SHUTDOWN server shutdown
+2024-08-07 18:06:45.271 INFO  [kea-dhcp6.hosts/1.133739904828912] HOSTS_BACKENDS_REGISTERED the following host backend types are available: mysql postgresql 
+2024-08-07 18:06:45.271 WARN  [kea-dhcp6.dhcpsrv/1.133739904828912] DHCPSRV_MT_DISABLED_QUEUE_CONTROL disabling dhcp queue control when multi-threading is enabled.
+2024-08-07 18:06:45.271 WARN  [kea-dhcp6.dhcp6/1.133739904828912] DHCP6_RESERVATIONS_LOOKUP_FIRST_ENABLED Multi-threading is enabled and host reservations lookup is always performed first.
+2024-08-07 18:06:45.271 INFO  [kea-dhcp6.dhcpsrv/1.133739904828912] DHCPSRV_CFGMGR_NEW_SUBNET6 a new subnet has been added to configuration: 2001:db8:1::/64 with params: t1=900, t2=1800, valid-lifetime=6000, rapid-commit is false
+2024-08-07 18:06:45.272 INFO  [kea-dhcp6.dhcpsrv/1.133739904828912] DHCPSRV_CFGMGR_SOCKET_TYPE_SELECT using socket type raw
+2024-08-07 18:06:45.272 INFO  [kea-dhcp6.commands/1.133739904828912] COMMAND_ACCEPTOR_START Starting to accept connections via unix domain socket bound to /kea/sockets/dhcp6.socket
+2024-08-07 18:06:45.272 INFO  [kea-dhcp6.dhcp6/1.133739904828912] DHCP6_CONFIG_COMPLETE DHCPv6 server has completed configuration: added IPv6 subnets: 1; DDNS: disabled
+2024-08-07 18:06:45.273 INFO  [kea-dhcp6.dhcpsrv/1.133739904828912] DHCPSRV_MEMFILE_DB opening memory file lease database: lfc-interval=3600 name=/kea/leases/dhcp6.csv type=memfile universe=6
+2024-08-07 18:06:45.274 INFO  [kea-dhcp6.dhcpsrv/1.133739904828912] DHCPSRV_MEMFILE_LEASE_FILE_LOAD loading leases from file /kea/leases/dhcp6.csv
+2024-08-07 18:06:45.274 INFO  [kea-dhcp6.dhcpsrv/1.133739904828912] DHCPSRV_MEMFILE_BUILD_EXTENDED_INFO_TABLES6 building extended info tables saw 0 leases, extended info sanity checks modified 0 leases and 0 leases were entered into tables
+2024-08-07 18:06:45.274 INFO  [kea-dhcp6.dhcpsrv/1.133739904828912] DHCPSRV_MEMFILE_LFC_SETUP setting up the Lease File Cleanup interval to 3600 sec
+2024-08-07 18:06:45.274 INFO  [kea-dhcp6.dhcp6/1.133739904828912] DHCP6_USING_SERVERID server is using server-id 00:01:00:01:2e:46:5f:89:a4:bb:6d:58:4e:0f and stores in the file /usr/local/var/lib/kea/kea-dhcp6-serverid
+2024-08-07 18:06:45.275 WARN  [kea-dhcp6.dhcpsrv/1.133739904828912] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface docker0 is not running
+2024-08-07 18:06:45.275 WARN  [kea-dhcp6.dhcpsrv/1.133739904828912] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: Failed to open multicast socket on interface vethe1e956f, reason: Failed to open link-local socket on interface vethe1e956f: Failed to bind socket 20 to fe80::98a4:4aff:fe84:e20e/port=547: Address not available
+2024-08-07 18:06:45.275 INFO  [kea-dhcp6.dhcp6/1.133739904828912] DHCP6_OPEN_SOCKETS_FAILED maximum number of open service sockets attempts: 0, has been exhausted without success
+2024-08-07 18:06:45.275 INFO  [kea-dhcp6.dhcpsrv/1.133739904828912] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_NA leases in subnet 2001:db8:1::/64
+2024-08-07 18:06:45.275 INFO  [kea-dhcp6.dhcpsrv/1.133739904828912] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_TA leases in subnet 2001:db8:1::/64
+2024-08-07 18:06:45.275 INFO  [kea-dhcp6.dhcpsrv/1.133739904828912] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_PD leases in subnet 2001:db8:1::/64
+2024-08-07 18:06:45.275 WARN  [kea-dhcp6.dhcp6/1.133739904828912] DHCP6_MULTI_THREADING_INFO enabled: yes, number of threads: 4, queue size: 600
+2024-08-07 18:06:45.275 INFO  [kea-dhcp6.dhcp6/1.133739904828912] DHCP6_STARTED Kea DHCPv6 server version 2.7.1 started
+2024-08-07 18:06:47.912 INFO  [kea-dhcp6.commands/1.133739904828912] COMMAND_RECEIVED Received command 'shutdown'
+2024-08-07 18:06:47.913 INFO  [kea-dhcp6.dhcp6/1.133739904828912] DHCP6_SHUTDOWN server shutdown
+2024-08-07 18:08:11.495 INFO  [kea-dhcp6.hosts/1.138646007719408] HOSTS_BACKENDS_REGISTERED the following host backend types are available: mysql postgresql 
+2024-08-07 18:08:11.495 WARN  [kea-dhcp6.dhcpsrv/1.138646007719408] DHCPSRV_MT_DISABLED_QUEUE_CONTROL disabling dhcp queue control when multi-threading is enabled.
+2024-08-07 18:08:11.495 WARN  [kea-dhcp6.dhcp6/1.138646007719408] DHCP6_RESERVATIONS_LOOKUP_FIRST_ENABLED Multi-threading is enabled and host reservations lookup is always performed first.
+2024-08-07 18:08:11.495 INFO  [kea-dhcp6.dhcpsrv/1.138646007719408] DHCPSRV_CFGMGR_NEW_SUBNET6 a new subnet has been added to configuration: 2001:db8:1::/64 with params: t1=900, t2=1800, valid-lifetime=6000, rapid-commit is false
+2024-08-07 18:08:11.495 INFO  [kea-dhcp6.dhcpsrv/1.138646007719408] DHCPSRV_CFGMGR_SOCKET_TYPE_SELECT using socket type raw
+2024-08-07 18:08:11.535 INFO  [kea-dhcp6.commands/1.138646007719408] COMMAND_ACCEPTOR_START Starting to accept connections via unix domain socket bound to /kea/sockets/dhcp6.socket
+2024-08-07 18:08:11.535 INFO  [kea-dhcp6.dhcp6/1.138646007719408] DHCP6_CONFIG_COMPLETE DHCPv6 server has completed configuration: added IPv6 subnets: 1; DDNS: disabled
+2024-08-07 18:08:11.536 INFO  [kea-dhcp6.dhcpsrv/1.138646007719408] DHCPSRV_MEMFILE_DB opening memory file lease database: lfc-interval=3600 name=/kea/leases/dhcp6.csv type=memfile universe=6
+2024-08-07 18:08:11.537 INFO  [kea-dhcp6.dhcpsrv/1.138646007719408] DHCPSRV_MEMFILE_LEASE_FILE_LOAD loading leases from file /kea/leases/dhcp6.csv
+2024-08-07 18:08:11.537 INFO  [kea-dhcp6.dhcpsrv/1.138646007719408] DHCPSRV_MEMFILE_BUILD_EXTENDED_INFO_TABLES6 building extended info tables saw 0 leases, extended info sanity checks modified 0 leases and 0 leases were entered into tables
+2024-08-07 18:08:11.537 INFO  [kea-dhcp6.dhcpsrv/1.138646007719408] DHCPSRV_MEMFILE_LFC_SETUP setting up the Lease File Cleanup interval to 3600 sec
+2024-08-07 18:08:11.537 INFO  [kea-dhcp6.dhcp6/1.138646007719408] DHCP6_USING_SERVERID server is using server-id 00:01:00:01:2e:46:5f:89:a4:bb:6d:58:4e:0f and stores in the file /usr/local/var/lib/kea/kea-dhcp6-serverid
+2024-08-07 18:08:11.564 WARN  [kea-dhcp6.dhcpsrv/1.138646007719408] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface docker0 is not running
+2024-08-07 18:08:11.564 WARN  [kea-dhcp6.dhcpsrv/1.138646007719408] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface br-fb4bf8095ba3 is not running
+2024-08-07 18:08:11.564 WARN  [kea-dhcp6.dhcpsrv/1.138646007719408] DHCPSRV_OPEN_SOCKET_FAIL failed to open socket: the interface veth2e74d8a is not running
+2024-08-07 18:08:11.564 INFO  [kea-dhcp6.dhcp6/1.138646007719408] DHCP6_OPEN_SOCKETS_FAILED maximum number of open service sockets attempts: 0, has been exhausted without success
+2024-08-07 18:08:11.564 INFO  [kea-dhcp6.dhcpsrv/1.138646007719408] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_NA leases in subnet 2001:db8:1::/64
+2024-08-07 18:08:11.564 INFO  [kea-dhcp6.dhcpsrv/1.138646007719408] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_TA leases in subnet 2001:db8:1::/64
+2024-08-07 18:08:11.564 INFO  [kea-dhcp6.dhcpsrv/1.138646007719408] DHCPSRV_CFGMGR_USE_ALLOCATOR using the iterative allocator for IA_PD leases in subnet 2001:db8:1::/64
+2024-08-07 18:08:11.565 WARN  [kea-dhcp6.dhcp6/1.138646007719408] DHCP6_MULTI_THREADING_INFO enabled: yes, number of threads: 4, queue size: 600
+2024-08-07 18:08:11.565 INFO  [kea-dhcp6.dhcp6/1.138646007719408] DHCP6_STARTED Kea DHCPv6 server version 2.7.1 started
