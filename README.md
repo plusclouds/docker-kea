@@ -1,3 +1,13 @@
+# Tribute
+
+[Jonas Alfredson](https://github.com/JonasAlfredsson) made an awesome 
+job of creating this docker repository. We forked this because we had to 
+modify it to our own requirements. For the original repo please checkout;
+
+[https://github.com/JonasAlfredsson/docker-kea](https://github.com/JonasAlfredsson/docker-kea)
+
+
+
 # docker-kea
 
 The ISC (Internet System Consortium) Kea DHCP server running inside a Docker
